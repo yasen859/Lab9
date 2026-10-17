@@ -6,9 +6,10 @@ void main() {
 	setlocale(LC_ALL, ".UTF8");
 	int row, col;
 	printf("\n");
-	for (row = 1; row <= ROW; ++row) {
+	for (row = 6; row >= 1; --row) {
 		for (col = 1; col <= row; col++);
-		printf("%5d", col * row);
+		printf("%3d", 5);
+		printf("%10d", 5);
 		printf("\n");
 	}
 	system("pause");
